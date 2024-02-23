@@ -1,0 +1,182 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Inknut+Antiqua:wght@300;400;500;600;700;800;900&display=swap');
+
+
+/* Estilos gerais */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+    color: #333;
+  }
+  
+  /* Estilos do cabeçalho */
+  header {
+    background-color: #FECA2F;
+    color: #fff;
+    padding: 10px 90px;
+    
+  }
+  #informacao{
+    display: none;
+    font-family: 'Inknut Antiqua';
+    color: #510707;
+  }
+  nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+  }
+  
+    /* Estilos para o menu */
+    
+  .logo {
+        display: flex;
+        align-items: center;
+      }
+  .logo img {
+    width: 30px;
+  }
+  
+  .logo h1 {
+    margin: 0;
+    font-family: 'Inknut Antiqua';
+    color: #510707;
+    padding-left: 5px;
+    font-size: 20px;
+  }
+  .botaomenu{
+    background-color: #FECA2F;
+  }
+  .menu_img{
+    width: 25px;
+  }
+  .menu-toggle {
+    display: none;
+  }
+  
+  .menu-toggle label {
+    cursor: pointer;
+    font-size: 25px;
+  }
+  
+  .menu {
+    display: flex;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .menu li {
+    margin-right: 20px;
+  }
+  
+  .menu li a {
+    color: #fff;
+    text-decoration: none;
+  }
+  
+  /* Estilos da seção */
+  section {
+    text-align: center;
+    padding: 50px 20px;
+    height: 200px;
+    background-image: url();
+    background-color: #fff;
+  }
+  section h2{
+    font-family: 'Inknut Antiqua';
+    color: #510707;
+  }
+  
+  .content {
+    max-width: 600px;
+    margin: 0 auto;
+    line-height: 2.0;
+  }
+  
+  button {
+    background-color: rgba(37, 211, 102, 1);
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  /* Estilos do conteúdo principal */
+  main {
+    padding: 20px;
+    background-color: rgba(255, 255, 187, 1);
+    height: auto;
+  }
+  
+  .container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  
+  .row {
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 20px;
+  }
+  
+  .photo {
+    text-align: center;
+    margin-right: 10px;
+    margin-bottom: 0px;
+    border-bottom: 1px solid;
+    border-color: #FECA2F;
+    border-bottom-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+    background-color: #fff;  
+    
+  }
+ 
+  .photo img {
+    max-width: 100%;
+    height: 200px;
+    width: 300px;
+    filter: blur(3px);
+  }
+  
+  .photo p {
+    margin: 10px 0;
+    font-size: 16px;
+  }
+  .info{
+    font-family: 'Inknut Antiqua';
+    font-size: medium;
+  }
+  .botao{
+    
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  a{
+    padding-left: 20px;
+  }
+  .instagram-botao{
+    background-color: #FF0069;
+    
+  }
+  footer {
+    background-color: #FECA2F;
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+    position: flex;
+    bottom: 0;
+    width: auto;
+    
+}
+footer a {
+  text-decoration: none;
+  
+  color: #ffff;
+}

@@ -1,0 +1,6 @@
+function menu() {
+       
+    
+    $('#informacao').toggle();
+   
+    }
